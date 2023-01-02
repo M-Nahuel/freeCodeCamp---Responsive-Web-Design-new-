@@ -1,0 +1,13 @@
+body{
+  font-family:"verdana";
+  width:100%;
+  display:flex;
+  margin:auto;
+}
+
+#image{
+  max-width:100%;
+  display:block;
+  height:auto;
+  margin: auto;
+}
