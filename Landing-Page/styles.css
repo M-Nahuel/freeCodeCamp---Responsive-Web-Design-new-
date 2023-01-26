@@ -1,20 +1,44 @@
 *{
-  margin:10px;
+  margin:0;
   padding:0;
   box-sizing:border-box;
   border:solid green 1px;
 }
 
 html{
-  margin:0;
-  padding:0;
-  font-size:20px;
-  font-family: georgia, sans-serif;
+  display:block;
 }
 
 body{
   background-color:lightblue;
   padding:10px;
+  font-size:20px;
+  font-family: georgia, sans-serif;
+}
+
+header{
+  position:fixed;
+  top:0;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  padding:0 20px;
+  width:100%;
+  height:10%;
+}
+
+#img-logo{
+  width:60vw;
+  display:grid;
+}
+
+h1{
+  width:30%;
+  height:10%;
+}
+
+#header-img{
+
 }
 
 a{
@@ -23,8 +47,9 @@ a{
   cursor:pointer;
 }
 
-li{
+nav li{
   list-style:none;
+  display:inline;
 }
 
 #logo-title{
@@ -38,4 +63,10 @@ li{
   height:100%;
   float:left;
   margin:0;
+}
+
+@media (max-width:650px){
+  nav{
+    background-color:lightgreen;
+  }
 }
